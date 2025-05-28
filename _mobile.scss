@@ -32,6 +32,7 @@
 
     .header {
         height: 700px;
+        padding-top: 147px;    
         background-image: url(./images/header_bg_mobile.jpeg);
         background-size: cover;
         background-position: center;
@@ -130,7 +131,6 @@
     .game {
         display: flex;
         flex-direction: column;
-        height: 626px;
         &__img {
             height: 284px;
             min-width: 343px;
@@ -168,6 +168,25 @@
         &__button{
             height: 55px;
             width: 285px;
+            font-size: 16px;
         }
+    }
+    .number{
+        height: 528px;
+    }
+    .arithmetic{
+        height: 568px;
+    }
+    .coup{
+        height: 568px;
+    }
+    .stone{
+        height: 606px;
+    }
+    .quiz{
+        height: 568px;
+    }
+    .random-color{
+        height: 626px;
     }
 }
