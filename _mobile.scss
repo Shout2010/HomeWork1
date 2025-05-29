@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .stars {
+        &__item-1 {
+            display: none;
+        }
+
+        &__item-2 {
+            display: none;
+        }
+
+        &__item-3 {
+            display: none;
+        }
+
+        &__item-4 {
+            display: none;
+        }
+
+        &__item-5 {
+            display: none;
+        }
+
+        &__item-6 {
+            display: block;
+        }
+    }
+
+    .header {
+        height: 700px;
+        padding-top: 147px;    
+        background-image: url(./images/header_bg_mobile.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &__box {
+            align-items: center;
+        }
+
+        &__title {
+            color: rgb(32, 32, 39);
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            text-align: center;
+        }
+
+        &__description {
+            color: rgb(32, 32, 39);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        &__button {
+            height: 55px;
+            width: 285px;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+
+    .navigation {
+        &__menu {
+            height: 52px;
+            gap: 74px;
+        }
+
+        &__item {
+            position: relative;
+            color: rgb(32, 32, 39);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 110%;
+            letter-spacing: 4%;
+            text-align: left;
+            text-transform: uppercase;
+
+            &:nth-child(n)::after {
+                content: '';
+                position: absolute;
+                left: -27;
+                width: 19px;
+                height: 19px;
+                background-image: url(./images/star_nav.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+
+    .description {
+        display: none;
+    }
+
+    .games {
+        padding-top: 48px;
+
+        &__title {
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+        }
+
+        &__box {
+            margin-top: 48px;
+            gap: 24px;
+        }
+        &__star-1{
+            display: none;
+        }
+        &__star-2{
+            display: none;
+        }
+        &__star-3{
+            display: none;
+        }
+        &__star-4{
+            display: none;
+        }
+    }
+
+    .game {
+        display: flex;
+        flex-direction: column;
+        &__img {
+            height: 284px;
+            min-width: 343px;
+        }
+
+        &__number {
+            order: 0;
+        }
+
+        &__coup {
+            order: 0;
+        }
+
+        &__quiz {
+            order: 0;
+        }
+        &__text{
+            padding: 28px;
+            gap: 16px;
+        }
+        &__name {
+            color: rgb(32, 32, 39);
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+        }
+
+        &__description {
+            color: rgb(0, 0, 0);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+        &__button{
+            height: 55px;
+            width: 285px;
+            font-size: 16px;
+        }
+    }
+    .number{
+        height: 528px;
+    }
+    .arithmetic{
+        height: 568px;
+    }
+    .coup{
+        height: 568px;
+    }
+    .stone{
+        height: 606px;
+    }
+    .quiz{
+        height: 568px;
+    }
+    .random-color{
+        height: 626px;
+    }
+}
