@@ -122,6 +122,7 @@ body {
     }
 
     &__description {
+        max-width: 720px;
         color: rgb(32, 32, 39);
         font-size: 24px;
         font-weight: 400;

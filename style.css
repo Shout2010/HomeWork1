@@ -114,6 +114,7 @@ body {
   line-height: 78px;
 }
 .header__description {
+  max-width: 720px;
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
@@ -482,11 +483,13 @@ body {
     text-align: center;
   }
   .header__description {
+    width: 296px;
     color: rgb(32, 32, 39);
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
+    padding-bottom: 12px;
   }
   .header__button {
     height: 55px;
@@ -524,6 +527,7 @@ body {
   }
   .games {
     padding-top: 48px;
+    padding-bottom: 10px;
   }
   .games__title {
     color: rgb(255, 255, 255);
@@ -565,7 +569,7 @@ body {
     order: 0;
   }
   .game__text {
-    padding: 28px;
+    padding: 29px;
     gap: 16px;
   }
   .game__name {
@@ -575,8 +579,8 @@ body {
     line-height: 39px;
   }
   .game__description {
+    width: 285px;
     color: rgb(0, 0, 0);
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -603,5 +607,11 @@ body {
   }
   .random-color {
     height: 626px;
+  }
+  .footer__text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

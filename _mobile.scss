@@ -32,7 +32,7 @@
 
     .header {
         height: 700px;
-        padding-top: 147px;    
+        padding-top: 147px;
         background-image: url(./images/header_bg_mobile.jpeg);
         background-size: cover;
         background-position: center;
@@ -51,11 +51,13 @@
         }
 
         &__description {
+            width: 296px;
             color: rgb(32, 32, 39);
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
             text-align: center;
+            padding-bottom: 12px;
         }
 
         &__button {
@@ -102,6 +104,7 @@
 
     .games {
         padding-top: 48px;
+        padding-bottom: 10px;
 
         &__title {
             color: rgb(255, 255, 255);
@@ -114,16 +117,20 @@
             margin-top: 48px;
             gap: 24px;
         }
-        &__star-1{
+
+        &__star-1 {
             display: none;
         }
-        &__star-2{
+
+        &__star-2 {
             display: none;
         }
-        &__star-3{
+
+        &__star-3 {
             display: none;
         }
-        &__star-4{
+
+        &__star-4 {
             display: none;
         }
     }
@@ -131,6 +138,7 @@
     .game {
         display: flex;
         flex-direction: column;
+
         &__img {
             height: 284px;
             min-width: 343px;
@@ -147,10 +155,12 @@
         &__quiz {
             order: 0;
         }
-        &__text{
-            padding: 28px;
+
+        &__text {
+            padding: 29px;
             gap: 16px;
         }
+
         &__name {
             color: rgb(32, 32, 39);
             font-size: 32px;
@@ -159,34 +169,50 @@
         }
 
         &__description {
+            width: 285px;
             color: rgb(0, 0, 0);
-            font-family: Montserrat;
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
         }
-        &__button{
+
+        &__button {
             height: 55px;
             width: 285px;
             font-size: 16px;
         }
     }
-    .number{
+
+    .number {
         height: 528px;
     }
-    .arithmetic{
+
+    .arithmetic {
         height: 568px;
     }
-    .coup{
+
+    .coup {
         height: 568px;
     }
-    .stone{
+
+    .stone {
         height: 606px;
     }
-    .quiz{
+
+    .quiz {
         height: 568px;
     }
-    .random-color{
+
+    .random-color {
         height: 626px;
+    }
+
+    .footer {
+        &__text {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
     }
 }
