@@ -1,5 +1,5 @@
 const randomGame = () =>{
-    let randomNumber = Math.floor(Math.random() * 100) + 1;
+    let randomNumber = Math.floor(Math.random()*100) + 1;
     
     do{
         let userNumber = prompt('Угадай число от 1 до 100',"Нажми отмена что бы закочнить игру");
