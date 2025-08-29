@@ -55,12 +55,12 @@
 
 // задание 10
 
-const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг",
-"Пятница", "Суббота"];
-const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
-let currentDate = new Date();
-const formatDateRus = (date) =>{
-    return `Дата: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()} - это ${days[date.getDay()]} \nВремя: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} .`; 
-}
-console.log(formatDateRus(currentDate));
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг",
+// "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+// "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// let currentDate = new Date();
+// const formatDateRus = (date) =>{
+//     return `Дата: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()} - это ${days[date.getDay()]} \nВремя: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} .`; 
+// }
+// console.log(formatDateRus(currentDate));
