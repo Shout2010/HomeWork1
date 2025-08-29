@@ -57,5 +57,7 @@ taskSixthBtnEl.addEventListener('click', () => {
 const removeBtnEl = document.querySelector('.remove__btn');
 removeBtnEl.addEventListener('click', ()=>{
     const removeTextEl = document.querySelector('.text');
-    removeTextEl.remove();
+    if (removeTextEl) {
+        removeTextEl.remove();
+    }
 })
