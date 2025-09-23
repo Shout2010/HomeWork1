@@ -1,4 +1,7 @@
 const coupText = () => {
-    let usetText = prompt('Ввеlите текст который нужно перевернуть:');
+    let usetText = prompt('Введите текст который нужно перевернуть:');
+    if (usetText === null) {
+        return;
+    }
     alert(usetText.split('').reverse().join(''));
 }
