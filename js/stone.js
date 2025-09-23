@@ -16,3 +16,4 @@ const rockPaperScissor = () => {
     } else if (userVersion.toLocaleLowerCase()  === computerVersion) {
         alert(`Ничья!!! Ваш выбор: ${userVersion}, выбор компьютера: ${computerVersion}.`);
     } else alert(`Поражение!!! Ваш выбор: ${userVersion}, выбор компьютера: ${computerVersion}.`);
+}
