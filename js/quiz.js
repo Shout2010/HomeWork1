@@ -26,7 +26,10 @@ const quizGame = (questionsArray) => {
         if (userAnswer != null && (userAnswer.toLocaleLowerCase() === questionsArray[i].correctAnswerText.toLocaleLowerCase() || userAnswer == questionsArray[i].correctAnswer)) {
             alert('Верно');
             correctCount++;
-        } else {
+        } else if (userAnswer === null) {
+            return;
+        } 
+        else {
             alert('Не верно');
         }
     }
